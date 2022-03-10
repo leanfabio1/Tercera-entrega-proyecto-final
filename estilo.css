@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -81,22 +81,22 @@ li {
   position: relative;
   font-size: 2rem;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 ul ul {
   position: relative;
   display: none;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 h2 {
@@ -123,9 +123,9 @@ h2 {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
   -webkit-box-shadow: 7px 13px 37 rgba(0, 0, 0, 0.8);
-          box-shadow: 7px 13px 37 rgba(0, 0, 0, 0.8);
+  box-shadow: 7px 13px 37 rgba(0, 0, 0, 0.8);
 }
 
 header {
@@ -195,26 +195,26 @@ body {
   display: flex;
   font-family: "Merriweather", serif;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 100vh;
   margin: 0;
 }
 
 .person {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 280px;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+width: 280px;
 }
 
 .container {
@@ -222,7 +222,7 @@ body {
   height: 312px;
   -webkit-tap-highlight-color: transparent;
   -webkit-transform: scale(0.48);
-          transform: scale(0.48);
+  transform: scale(0.48);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -240,17 +240,17 @@ body {
 }
 
 .container:hover {
-  -webkit-transform: scale(0.54);
-          transform: scale(0.54);
+-webkit-transform: scale(0.54);
+transform: scale(0.54);
 }
 
 .container-inner {
-  -webkit-clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z");
-          clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z");
-  position: relative;
-  -webkit-transform-origin: 50%;
-          transform-origin: 50%;
-  top: -200px;
+-webkit-clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z");
+clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z");
+position: relative;
+-webkit-transform-origin: 50%;
+transform-origin: 50%;
+top: -200px;
 }
 
 .circle {
@@ -269,7 +269,7 @@ body {
   pointer-events: none;
   position: relative;
   -webkit-transform: translateY(20px) scale(1.15);
-          transform: translateY(20px) scale(1.15);
+  transform: translateY(20px) scale(1.15);
   -webkit-transform-origin: 50% bottom;
           transform-origin: 50% bottom;
   -webkit-transition: -webkit-transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
